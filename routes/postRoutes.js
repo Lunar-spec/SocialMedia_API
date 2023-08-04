@@ -1,5 +1,5 @@
 import express from 'express';
-import Post from '../mongoDb/models/post.js';
+import Post from '../mongoDB/models/Post.js ';
 import authMiddleware from '../middleware/auth.js';
 
 const router = express.Router();
